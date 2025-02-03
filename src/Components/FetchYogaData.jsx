@@ -1,15 +1,14 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import UseFetch from "./UseFetch";
-import "./FetchData.css";
 
-const FetchData = () => {
-  const data = UseFetch("https://api.npoint.io/9045c260b1565daa9e15");
+const FetchYogaData = () => {
+  const data = UseFetch("https://api.npoint.io/4459a9a10e43812e1152");
   return (
     <>
       <ul className="list_data_main">
         <h1 className="usefetch_heading">
-          Use Fetch Custom Hook for Fruit Data
+          Use Fetch Custom Hook for Yoga Data
         </h1>
         {data &&
           data.map((index) => (
@@ -17,16 +16,12 @@ const FetchData = () => {
               <li className="list_data">
                 <h3>{index.name}</h3>
                 <p>
-                  <strong>Importance: </strong>
-                  {index.importance}
-                </p>
-                <p>
-                  <strong>Benefits: </strong>
+                  <strong>Benefits:</strong>
                   {index.benefits}
                 </p>
                 <p>
-                  <strong>Time to eat: </strong>
-                  {index.best_time_to_intake}
+                  <strong>Time Duration:</strong>
+                  {index.time_duration}
                 </p>
               </li>
             </>
@@ -36,4 +31,4 @@ const FetchData = () => {
   );
 };
 
-export default FetchData;
+export default FetchYogaData;
