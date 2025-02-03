@@ -1,4 +1,4 @@
-# IBM-ReactJS-Fetch-Data-Using-useFetch
+# IBM-ReactJS-Fetch-Data-Using-UseFetch
 ### What I learnt
 In this lab, I learnt how to fetch data in React using a custom hook (UseFetch) and a corresponding component (FetchData). By encapsulating data-fetching logic into reusable hooks, I improved code maintainability. I mastered React's useState and useEffect hooks for managing state and asynchronous operations efficiently. Additionally, I learnt to dynamically render fetched data on the UI with JSX, enabling the creation of dynamic and interactive components.
 ### Learning objectives
